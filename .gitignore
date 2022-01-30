@@ -1,0 +1,7 @@
+*.o
+*.d
+*.exe
+build_win64
+adrenc
+*.mp2
+*.raw

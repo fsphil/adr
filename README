@@ -1,0 +1,31 @@
+
+ -[ adrenc - An ADR (Astra Digital Radio) encoder ]-
+
+WHAT'S IT DO
+
+Encodes an ADR compatible MPEG-2 layer II (MUSICAM) bitstream using the
+twolame encoder.
+
+Input is raw 48kHz 16-bit Stereo PCM.
+
+
+REQUIREMENTS
+
+twolame >= 0.4.0 (https://www.twolame.org/).
+
+
+NOTES
+
+The Technisat Astrastar AX 1 receiver only displays the channel name if it
+is at least 8 characters long and contains no accented characters. Only the
+first 8 characters are ever displayed. Other receivers may behave differently.
+
+
+INSTALL
+
+make
+make install
+
+
+-Philip Heron <phil@sanslogic.co.uk>
+
