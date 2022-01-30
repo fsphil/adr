@@ -30,7 +30,7 @@ make install
 TODO
 
 - Configure country and category fields.
-- Allow Mono B channel confiuration in Dual channel mode.
+- Allow Mono B channel configuration in Dual channel mode.
 - ffmpeg source support
 
 
