@@ -326,6 +326,9 @@ int main(int argc, char *argv[])
 	
 	memset(&s, 0, sizeof(_adrenc_t));
 	
+	s.mode = TWOLAME_JOINT_STEREO;
+	s.dc4_mode = 'S';
+	
 	s.cmsg[0] = '\0';
 	s.cptr = s.cmsg;
 	s.cindex = 0;
