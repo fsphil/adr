@@ -27,5 +27,12 @@ make
 make install
 
 
+TODO
+
+- Configure country and category fields.
+- Allow Mono B channel confiuration in Dual channel mode.
+- ffmpeg source support
+
+
 -Philip Heron <phil@sanslogic.co.uk>
 
